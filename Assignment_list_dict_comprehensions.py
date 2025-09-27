@@ -42,3 +42,6 @@ print(" \n")
 print("Combinations\t \tSample means")
 for key, value in a.items():
     print(key, "\t", value)
+
+mean_of_sample_means = sum(a.values())/len(a.values())
+print("The mean of sample means = ", mean_of_sample_means)
