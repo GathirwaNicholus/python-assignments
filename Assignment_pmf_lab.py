@@ -1,3 +1,6 @@
+#please refer to or see pmf_lab.ipynb as I have explanations (inline) alongside the notes and 
+#some more visualizations, this is like a compressed summary.
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
