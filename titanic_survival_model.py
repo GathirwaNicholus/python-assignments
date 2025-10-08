@@ -86,6 +86,7 @@ predictions['Prediction_Label'] = predictions['Predicted_Probability'].apply(
     lambda p: 'Likely to Survive' if p >= 0.5 else 'Likely Not to Survive'
 )
 
+
 print("\n===== SAMPLE PREDICTIONS =====")
 print(predictions.head(10))
 
