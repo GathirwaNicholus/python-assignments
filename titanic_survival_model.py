@@ -5,10 +5,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
-# ===============================
-# Titanic Survival Prediction Script
-# ===============================
-
 # Load dataset
 data = pd.read_csv("tested.csv")
 
